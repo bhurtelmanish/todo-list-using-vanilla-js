@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Finlandica&family=Fira+Sans:wght@200;300;400&family=Geologica:wght@100;200;300;400;500&family=Grenze+Gotisch&family=Hubballi&family=Inter:wght@500&family=Lato&family=Lobster&family=Lobster+Two:wght@700&family=Manrope:wght@300&family=Martel&family=Noto+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Oswald:wght@200;300;400&family=Poppins:wght@200;300;500&family=Quicksand&family=Raleway:ital,wght@0,200;0,300;0,400;0,800;1,700&family=Roboto:wght@100;300;400;700&family=Sansita+Swashed:wght@300&family=Wix+Madefor+Display:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --bgColor: blue;
+    --mainColor: rgb(241, 80, 80);
+}
+p.header{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    /* background-color: var(--bgColor); */
+    margin-top: 3rem;
+    color:rgb(47, 47, 47);
+}
+.field-container{
+    /* background-color: var(--bgColor); */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:100vw;
+    /* gap:0.4rem; */
+}
+.btn-common{
+    height: 2.5rem;
+    min-width:4rem;
+    width:auto;
+    /* padding:0 1rem 0 1rem; */
+    outline:none;
+    cursor: pointer;
+    background-color: var(--mainColor);
+    color:white;
+}
+.add{
+    border:2px solid var(--mainColor);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.remove{
+    border:2px solid var(--mainColor);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.text{
+    height: 2.5rem;
+    border:1px solid rgb(152, 152, 152);
+    outline:none;
+    padding: 0 0.5rem 0 0.3rem;
+    min-width:43rem;
+}
+.todo-container{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.todo-item-container{
+    background-color: rgb(247, 247, 247);
+    width:40rem;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+.todo-item-container > p{
+    font-size: 0.8rem;
+}
+/* p.message{
+    width:100vw;
+    text-align: center;
+}
+.image{
+    display: block;
+    margin: auto;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.box{
+    margin-top: 1rem;
+} */
